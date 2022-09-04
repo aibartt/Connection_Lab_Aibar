@@ -1,0 +1,35 @@
+body{
+    background-color: oldlace;
+}
+
+h1{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+ 
+}
+.video{
+    display: flex;
+    justify-content: center;
+
+}
+p{
+    color: navy;
+    text-indent: 30px;
+    text-transform: uppercase;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}

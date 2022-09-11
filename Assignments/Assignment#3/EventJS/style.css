@@ -1,0 +1,30 @@
+body{
+    background-color: oldlace;
+    text-align: center;
+}
+
+h1{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 25px;
+    border-width: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.Text{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin-left: 4cm;
+    margin-right: 4cm;
+
+}

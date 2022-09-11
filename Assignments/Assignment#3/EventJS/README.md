@@ -1,7 +1,7 @@
 
 # Documentation of Assignment#3
 
-## Website link: https://aibartt.github.io/Connection_Lab_Aibar/Assignments/Assignment#3/EventJS/
+## Website link: https://aibartt.github.io/connection_lab_aibar/Assignments/Assignment#3/EventJS/
 
 Wireframe of Website: 
 ![](images/1.png)

@@ -3,7 +3,7 @@
 
 ## Website link: https://aibartt.github.io/Connection_Lab_Aibar/Assignments/Assignment#3/EventJS/
 
-Wireframe of Website: 
+## Wireframe of Website: 
 ![](images/1.png)
 
 ## What I learned from this Assignment?

@@ -1,5 +1,5 @@
-#Assignment #1
-##Critique of Paper Planes
+# Assignment 1
+## Critique of Paper Planes
 
 Today I am writing a critique about the Paper Planes connected application from
 Experiments with Google. In this application, you can create your own plane from paper with

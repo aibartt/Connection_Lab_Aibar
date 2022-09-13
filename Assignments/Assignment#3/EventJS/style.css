@@ -28,3 +28,27 @@ h1{
     margin-right: 4cm;
 
 }
+
+.accordion {
+    background-color: rgb(236, 202, 172);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 70%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: rgb(219, 175, 175);
+    display: none;
+    overflow: hidden;
+
+  }

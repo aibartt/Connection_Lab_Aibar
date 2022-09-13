@@ -1,5 +1,5 @@
 //declare and initialize our list just like any other variable
-var photoList = [
+let photoList = [
     "img1",
     "img2",
     "img3",
@@ -20,7 +20,7 @@ var photoList = [
   ]
   
   //declare and initialize our counter
-  var counter = 0;
+  let counter = 1;
   
   //this is the function that swaps out photos
   function rotate() {
@@ -42,3 +42,21 @@ var photoList = [
   let button = document.getElementById('button');
   //attach the event listener
   button.addEventListener('click', rotate);
+
+
+let  acc = document.getElementsByClassName("accordion");
+let i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+
+    this.classList.toggle("active");
+    
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}

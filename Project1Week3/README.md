@@ -17,16 +17,16 @@ With the help of this project, I learned a lot about Media queries - how can we 
 
 ## Code index.html
   
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planet Explorer</title>
-    <link href="style.css" rel="stylesheet"/>
-</head>
-<body>
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+    		<meta charset="UTF-8">
+   	 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    		<title>Planet Explorer</title>
+    	<link href="style.css" rel="stylesheet"/>
+	</head>
+	<body>
     <h1 class="heading">Planet Explorer</h1>
 
     <section class="container">
@@ -52,13 +52,13 @@ With the help of this project, I learned a lot about Media queries - how can we 
 
 ## Code script.js
 
+
 	window.addEventListener('load', function () {
-    console.log('page is loaded');
+    		console.log('page is loaded');
 
-
-let button = document.getElementById('planet-button');
-button.addEventListener('click', function(){
-    let inputText = document.getElementById("planet-input").value;
+	let button = document.getElementById('planet-button');
+	button.addEventListener('click', function(){
+    	let inputText = document.getElementById("planet-input").value;
 
 
     fetch("https://mocki.io/v1/32b8aef3-b418-4a38-a8f1-05903fb12d62")
@@ -102,7 +102,4 @@ button.addEventListener('click', function(){
             headingElement.innerHTML = data[7].name;
             descriptionElement.innerHTML = data[7].description;
         }
-    })
-})
-
-})
+    }) }) })

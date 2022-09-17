@@ -16,12 +16,20 @@
 	
 ## What I learned from this Assignment?
 
-With the help of this project, I learned a lot about Media queries - how can we make our website responsive. In practice, I used addEventListener() method for adding event handlers in web pages. The <button> element has an event called 'click' that fires when the user clicks the button. Objects that can fire events have an addEventListener() method. In my website I created image and text carousel of places to visit in Abu Dhabi using Event Arrays Images and Text. I did some progress on learning basics of JavaScript language, how to declare and initialize our variables, lists and etc. I also learned some Document Object Model (DOM) concepts and logic of accessing different parts of the website.
-  
-  I used one button element to create two event-driven user interactions that are handled in a script.js file. When the user clicks on the Explore Button, it depicts one of the tourist destinations in Abu Dhabi with a concise description, and when you click the button, it shows the following tourist destinations with its corresponding description. The second event-driven user interaction is Abu Dhabi COVID Rules Accordian. I learned how to create accordians using JavaScript and that accordions are useful when you want to toggle between hiding and showing large amount of content.
-  
-  ![](images/2.png)
+With the help of this project, I learned a lot about API and JSON files. In practice, I used 
 
+fetch("https://mocki.io/v1/32b8aef3-b418-4a38-a8f1-05903fb12d62")
+    .then(response => response.json())
+    .then(data =>{
+        console.log(data);. 
+to access the data set in the form of JSON using API I created using "Create Your Own Fake JSON API" https://mocki.io/fake-json-api website.
+  
+  I used one button element to create  event-driven user interactions that are handled in a app.js file. When the user clicks on the Explore the Planet, it depicts one of the planets in our Solar System with a concise description. I also learned how to access and utilize data from JSON using specific IDs to manipuate different attributes. For example:
+  
+  let descriptionElement = document.getElementById('p-des');
+  
+  ![](images/4.png)
+  
 
 ## Code index.html
   

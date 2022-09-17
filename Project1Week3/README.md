@@ -17,81 +17,95 @@ With the help of this project, I learned a lot about Media queries - how can we 
 
 ## Code index.html
   
-	  <!DOCTYPE html>
-	<html lang = "en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" conten="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Campus Cats</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-			<title>Explore Abu Dhabi</title>
-		</head>
-		<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Explorer</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 class="heading">Planet Explorer</h1>
 
-		<h1>Places to Explore in Abu Dhabi</h1>
-		<section class="container">
-		    <img id="photos" src="images/img1.jpeg" width="500" height="300"></img>
-			    <br><br>		    
-		 </section>
+    <section class="container">
+        <h2 class="sub-heading"> Enter Planet Name in Solar System: </h2>
+        <div class="entry">
+            <input id="planet-input"></input>
+            <br>
+            <button class ="button" id="planet-button">Explore the Planet</button>
+        </br>
+        </div>
+    
+        <div class="planet__info">
+            <h3 class="planet__name" id="p-name"></h3>
+            <p class="planet__description" id="p-des"></p>
+        </div>
+    </section>
 
-		<br><br>
-		<button id="button">Explore</button>
 
-		<section>
-		    <br><br>
-		    <div id="helloText" class="Text">Louvre Abu Dhabi is the first universal museum in the Arab World, translating and fostering the spirit of openness between cultures. Being one of the premier cultural institutions located in the heart of the Saadiyat Cultural District on Saadiyat Island, it is beyond any art gallery Abu Dhabi has ever seen. It displays works of historical, cultural and sociological significance, from ancient times to the contemporary era.</div>
-		</section>
-
-			<script src="script.js" type="text/javascript"></script>
-		</body>
-	</html>
+    <script src="app.js"></script>
+    
+</body>
+</html>
 
 ## Code script.js
 
-	//declare and initialize our list just like any other variable
-	var photoList = [
-	    "img1",
-	    "img2",
-	    "img3",
-	    "img4",
-	    "img5"
-	  ];
+	window.addEventListener('load', function () {
+    console.log('page is loaded');
 
-	  let infoList =[
-	    "Louvre Abu Dhabi is the first universal museum in the Arab World, translating and fostering the spirit of openness between cultures. Being one of the premier cultural institutions located in the heart of the Saadiyat Cultural District on Saadiyat Island, it is beyond any art gallery Abu Dhabi has ever seen. It displays works of historical, cultural and sociological significance, from ancient times to the contemporary era.",
+//https://mocki.io/v1/32b8aef3-b418-4a38-a8f1-05903fb12d62
 
-	    "Abu Dhabi’s Sheikh Zayed Grand Mosque is one of the world’s largest mosques and an architectural masterpiece that beautifully combines Islamic architecture and design. Sheikh Zayed bin Sultan Al Nahyan, the Founding Father of the UAE, had the mosque built in the capital city Abu Dhabi to create a cultural haven that welcomes and inspires people from all backgrounds",
+let button = document.getElementById('planet-button');
+button.addEventListener('click', function(){
+    let inputText = document.getElementById("planet-input").value;
 
-	    "Home to the fastest rollercoaster on the planet, Ferrari World Abu Dhabi recognizes your need for speed with an adrenaline rush around every corner. Feel the passion and the pulse-racing energy in the heart of Abu Dhabi. Featuring over 40 record-breaking rides and thrilling attractions, Ferrari World Abu Dhabi offers an epic experience that will give everyone from families to racing enthusiasts that Ferrari feeling in its purest form.",
 
-	    "Soul Beach stretches for one kilometre along the beautiful shores of Saadiyat Island in the captivating community of Mamsha Al Saadiyat. The manicured beach is lined with over 400 parasol-flanked sunbeds that overlook the azure waters of the Arabian Gulf.",
+    fetch("https://mocki.io/v1/32b8aef3-b418-4a38-a8f1-05903fb12d62")
+    .then(response => response.json())
+    .then(data =>{
+        console.log(data);
 
-	    "The visitor experience at Qasr Al Watan is an inspiring and educational tour of Emirati and Arabian excellence. Here, visitors will learn about the principles that have propelled traditional Arabian design to remarkable status. Visitors will also gain a rare insight into Emirati governance and culture through the Palace’s exhibits. Most notably, visitors will enjoy exploring the expansive selection of timeless books and manuscripts at House of Knowledge and Qasr Al Watan Library."
-	  ]
+        let headingElement = document.getElementById('p-name');
+        let descriptionElement = document.getElementById('p-des');
 
-	  //declare and initialize our counter
-	  var counter = 0;
 
-	  //this is the function that swaps out photos
-	  function rotate() {
-	    //display the photo in the index currently called by the counter
-	    document.getElementById("photos").src =
-	      "images/" + photoList[counter] + ".jpeg";
+        if (inputText == "Mercury"){
+            headingElement.innerHTML = data[0].name;
+            descriptionElement.innerHTML = data[0].description;
+        }
+        else if(inputText == "Venus"){
+            headingElement.innerHTML = data[1].name;
+            descriptionElement.innerHTML = data[1].description;
+        }
+        else if(inputText == "Earth"){
+            headingElement.innerHTML = data[2].name;
+            descriptionElement.innerHTML = data[2].description;
+        }
+        else if(inputText == "Mars"){
+            headingElement.innerHTML = data[3].name;
+            descriptionElement.innerHTML = data[3].description;
+        }
+        else if(inputText == "Jupiter"){
+            headingElement.innerHTML = data[4].name;
+            descriptionElement.innerHTML = data[4].description;
+        }
+        else if(inputText == "Saturn"){
+            headingElement.innerHTML = data[5].name;
+            descriptionElement.innerHTML = data[5].description;
+        }
+        else if(inputText == "Uranus"){
+            headingElement.innerHTML = data[6].name;
+            descriptionElement.innerHTML = data[6].description;
+        }
+        else if(inputText == "Neptune"){
+            headingElement.innerHTML = data[7].name;
+            descriptionElement.innerHTML = data[7].description;
+        }
+    })
 
-	    document.getElementById("helloText").innerHTML = infoList[counter];
-	    //if the counter is greater than the number of things in the array, reset to 0, otherwise add 1
-	    if (counter >= photoList.length - 1) { //here we can use both photoList.length and infoList.length
-	      counter = 0;
-	    } else {
-	      counter = counter + 1;
-	    }
+ 
+})
 
-	  }
-
-	  //select for the button element
-	  let button = document.getElementById('button');
-	  //attach the event listener
-	  button.addEventListener('click', rotate);
-
+})

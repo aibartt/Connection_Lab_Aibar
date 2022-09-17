@@ -17,7 +17,7 @@ With the help of this project, I learned a lot about Media queries - how can we 
 
 ## Code index.html
   
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -55,7 +55,6 @@ With the help of this project, I learned a lot about Media queries - how can we 
 	window.addEventListener('load', function () {
     console.log('page is loaded');
 
-//https://mocki.io/v1/32b8aef3-b418-4a38-a8f1-05903fb12d62
 
 let button = document.getElementById('planet-button');
 button.addEventListener('click', function(){
@@ -104,8 +103,6 @@ button.addEventListener('click', function(){
             descriptionElement.innerHTML = data[7].description;
         }
     })
-
- 
 })
 
 })

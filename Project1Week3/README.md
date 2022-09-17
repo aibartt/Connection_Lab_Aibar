@@ -6,6 +6,14 @@
 ## Wireframe of Website: 
 ![](images/1.png)
 
+## User Interaction
+	Welcome Page asking for user to enter Planet Name
+![](images/2.png)
+	
+	User interaction by providing input and clicking button to make a data request about different planets
+![](images/3.png)	
+	
+	
 ## What I learned from this Assignment?
 
 With the help of this project, I learned a lot about Media queries - how can we make our website responsive. In practice, I used addEventListener() method for adding event handlers in web pages. The <button> element has an event called 'click' that fires when the user clicks the button. Objects that can fire events have an addEventListener() method. In my website I created image and text carousel of places to visit in Abu Dhabi using Event Arrays Images and Text. I did some progress on learning basics of JavaScript language, how to declare and initialize our variables, lists and etc. I also learned some Document Object Model (DOM) concepts and logic of accessing different parts of the website.

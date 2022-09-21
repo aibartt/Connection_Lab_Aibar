@@ -3,6 +3,10 @@
 
 ## Website link: https://aibartt.github.io/Connection_Lab_Aibar/Project1Week3
 
+## Project Idea
+My idea is to create a Planet Explorer Website, where users can explore different planets in our Solar System. Web application will utilize an incorporated static data set, and user interaction will be done by providing input about planet name and clicking button to make a data request about different planets. The user will be able to input the valid name of the Planet and get its description, image and some additional characteristics of the planet. I am planning to create my own API because I was not able to find a suitable API with the data set required for my Project on the internet. I used one button element to create event-driven user interactions that are handled in an app.js file. Most likely I will be expanding my project by incorporating other interesting ideas.
+
+
 ## Wireframe of Website: 
 ![](images/1.png)
 

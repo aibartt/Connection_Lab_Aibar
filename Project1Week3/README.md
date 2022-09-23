@@ -6,6 +6,10 @@
 ## Project Idea
 My idea is to create a Planet Explorer Website, where users can explore different planets in our Solar System. Web application will utilize an incorporated static data set, and user interaction will be done by providing input about planet name and clicking button to make a data request about different planets. The user will be able to input the valid name of the Planet and get its description, image and some additional characteristics of the planet. I am planning to create my own API because I was not able to find a suitable API with the data set required for my Project on the internet. I used one button element to create event-driven user interactions that are handled in an app.js file. Most likely I will be expanding my project by incorporating other interesting ideas.
 
+## Why this project is important?
+Understanding the planets and small bodies that inhabit our solar system help scientists answer questions about its formation, how it reached its current diverse state, how life evolved on Earth and possibly elsewhere in the solar system, and what characteristics of the solar system lead to the origins of life.
+The survey of 2,200 people in the United States was conducted by the NSF in 2012 and released on Friday at an annual meeting of the American Association for the Advancement of Science meeting in Chicago. To the question "Does the Earth go around the Sun, or does the Sun go around the Earth," 26 percent of those surveyed answered incorrectly. This survey shows the importance of educating public about our solar system planets.
+
 
 ## Wireframe of Website: 
 ![](images/1.png)

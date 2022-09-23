@@ -9,6 +9,7 @@ My idea is to create a Planet Explorer Website, where users can explore differen
 ## Why this project is important?
 Understanding the planets and small bodies that inhabit our solar system help scientists answer questions about its formation, how it reached its current diverse state, how life evolved on Earth and possibly elsewhere in the solar system, and what characteristics of the solar system lead to the origins of life.
 The survey of 2,200 people in the United States was conducted by the NSF in 2012 and released on Friday at an annual meeting of the American Association for the Advancement of Science meeting in Chicago. To the question "Does the Earth go around the Sun, or does the Sun go around the Earth," 26 percent of those surveyed answered incorrectly. This survey shows the importance of educating public about our solar system planets.
+My website can serve as a starting point to explore our unique solar system for people of all ages, from middle-school students to the elderly.
 
 
 ## Wireframe of Website: 

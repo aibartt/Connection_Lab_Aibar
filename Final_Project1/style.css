@@ -1,0 +1,36 @@
+body {
+    /* background-color: rgb(138, 166, 205); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    margin-left: 7pc;
+    margin-right: 7pc;
+}
+
+.heading {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.entry {
+    display: flex;
+    border-width: 20px;
+}
+
+.animation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}

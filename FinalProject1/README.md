@@ -23,7 +23,7 @@ My website can serve as a starting point to explore our unique solar system for 
 ![](images/3.png)
 	
    	User interaction by selecting one of the planet names to make a data request about different planets
-![](images/44.png)	
+![](images/4.png)	
 	
    	Displaying data about specific planet selected by user
 ![](images/5.png)
@@ -45,7 +45,7 @@ to access the data set in the form of JSON using API I created using "Create You
   
   let descriptionElement = document.getElementById('p-des');
   
-  ![](images/6.png)
+  ![](images/44.png)
   
 I wanted to improve the quality of the experience for an expected user so I implemented p5 animation of planet movements. 
   

@@ -1,0 +1,58 @@
+body {
+    /* body of the website styling */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    margin-left: 7pc;
+    margin-right: 7pc;
+}
+
+.heading {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.entry {
+    /* entry styling */
+    display: flex;
+    border-width: 20px;
+}
+
+.animation{
+    /* p5 animation styling */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 0.5em;
+  
+    /* reset */
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }

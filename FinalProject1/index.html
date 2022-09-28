@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Explorer</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+    <script src="sketch.js" charset="UTF-8"></script>
+    <script src="planet.js" charset="UTF-8"></script>
+
+</head>
+<body>
+    <h1 class="heading">Planet Explorer</h1>
+    <!-- Included a quote reflecting motivation of my project -->
+    <p>“Space is for everybody. It’s not just for a few people in science or math, or for a select group of astronauts. That’s our new frontier out there, and it’s everybody’s business to know about space.” </p>
+    <p>Christa McAuliffe</p>
+    <div class="animation" id="sketch-holder">
+        <h2>Solar System Planets Movement</h2>
+        <!-- p5 sketch will be displayed here -->
+    </div>
+    
+    <section class="container">
+        <h2 class="sub-heading"> Select Planet Name in Solar System: </h2>
+        <div class="entry">
+            <!-- After feedback from users and for accessability purposes I changed input text interaction to more user-friendly dropdown list selection of planet names -->
+            <select name="planets" id="planets_list">
+                <!-- initial option asking user to select one of the planets -->
+                <option disabled hidden selected>   --Please select the Planet in Solar System--</option> 
+                <option value="Mercury">Mercury</option>
+                <option value="Venus">Venus</option>
+                <option value="Earth">Earth</option>
+                <option value="Mars">Mars</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturn">Saturn</option>
+                <option value="Uranus">Uranus</option>
+                <option value="Neptune">Neptune</option>
+            </select>
+        </div>
+        <!-- after user selects a planet from dropdown list the 5 differnet data about this planet will be displaed -->
+        <div class="planet__info">
+            <h3 class="planet__name" id="p-name"></h3>
+            <p class="planet__description" id="p-des"></p>
+            <div>
+                <p>Position:</p><p class="planet_position" id="p-pos"></p>
+                <p>Mean orbital velocity (km/s):</p><p class="planet_velocity" id="p-vel"></p>
+                <p>Distance of planets from the sun in million km:</p><p class="distance" id="p-dis"></p>
+            </div>
+
+            <img class="planet__image" id="p-img"/>
+        </div>
+    </section>
+    
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

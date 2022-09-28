@@ -19,14 +19,15 @@ My website can serve as a starting point to explore our unique solar system for 
 	Welcome Page with quote from Christa McAuliffe
 ![](images/2.png)
 
-  p5 animation of Solar System Planets Movement
+  	p5 animation of Solar System Planets Movement
 ![](images/3.png)
 	
-	User interaction by selecting one of the planet names to make a data request about different planets
+   	User interaction by selecting one of the planet names to make a data request about different planets
 ![](images/4.png)	
 	
-  Displaying data about specific planet selected by user
- ![](images/5.png)
+   	Displaying data about specific planet selected by user
+![](images/5.png)
+![](images/55.png)
 	
 ## What I learned from this Assignment?
 
@@ -59,6 +60,10 @@ I had zero previous experience with web-development, and terms like JSON and API
 3) Implementation of p5 animation of planet movements was quite hard and additional functionality of selecting planet by mouse from the animation to display information is impossible because of specific p5 implementation issues and its negative effect on overall quality of the experience for an expected user.
 
 ## Code index.html
-
+  ![](images/7.png)
+  ![](images/8.png)
+  
 ## Code script.js
-
+  ![](images/9.png)
+  ![](images/10.png)
+  ![](images/11.png)

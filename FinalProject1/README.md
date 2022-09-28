@@ -68,3 +68,16 @@ I had zero previous experience with web-development, and terms like JSON and API
   ![](images/9.png)
   ![](images/10.png)
   ![](images/11.png)
+
+## Potential next steps
+  I would like to improve my implementation of p5 animation of real-time planet movements in Solar system, so that it will be possible to click on the moving planet and directly display relevant information on p5 itself. But for these I need large amounts of real-time data about movements from various sattelite sources and computational power to process this data.
+ 
+ ## Relevant references/resources 
+ Connections Lab Course Materials
+  https://github.com/MathuraMG/ConnectionsLab-NYUAD
+ 
+ Youtube tutorials
+  https://www.youtube.com/
+ 
+ JSON 
+  https://jsonformatter.org/112508

@@ -50,7 +50,7 @@ to access the data set in the form of JSON using API I created using "Create You
 I wanted to improve the quality of the experience for an expected user so I implemented p5 animation of planet movements. 
   
   
-## Challanges and Process of Creation
+## Key Challenges and Solutions
 I had zero previous experience with web-development, and terms like JSON and API were somewhat distant to me. But through this hands-on practical project I was able to learn a lot about APIs and their use in web-development. Throughout the process of creation of Prototype 1, I had numerous challanges and difficulties. 
 	
 1) I could not find suitable API for my project because publicly available APIs did not have key attributes like Description, Images and some basic characteristics of the planet. Also some of them had too much redundant information which is not relavant for the averege-level user. For example https://api.le-systeme-solaire.net/en/. So I searched for a JSON file from the internet and used https://mocki.io/fake-json-api website to create my own API for this project.
@@ -58,6 +58,7 @@ I had zero previous experience with web-development, and terms like JSON and API
 2) In the class we discussed PokeAPI where you can freely access the data of each Pokemon by adding its name to the end of URL. For example, https://pokeapi.co/api/v2/pokemon/ditto. In my case because API did not have this kind of easy access to each planet data, so I had to use if condition to check the planet name and link it to the specific location of this planet on the array.
 
 3) Implementation of p5 animation of planet movements was quite hard and additional functionality of selecting planet by mouse from the animation to display information is impossible because of specific p5 implementation issues and its negative effect on overall quality of the experience for an expected user.
+4) My initial user interaction was Input Text and Button Click user interactions, but after feedback from user testing I realized that not all people will be able to know valid names of planets in Solar system and to improve usability, accessibility, and sequencing of interactions I changed it to user-friendly styled drop-down menu with planet names, where you just select and data will be displayed. As simple as that!
 
 ## Code index.html
   ![](images/7.png)

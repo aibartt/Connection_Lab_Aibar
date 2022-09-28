@@ -23,7 +23,7 @@ My website can serve as a starting point to explore our unique solar system for 
 ![](images/3.png)
 	
    	User interaction by selecting one of the planet names to make a data request about different planets
-![](images/4.png)	
+![](images/44.png)	
 	
    	Displaying data about specific planet selected by user
 ![](images/5.png)

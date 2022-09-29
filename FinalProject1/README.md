@@ -4,7 +4,7 @@
 ## Website link: https://aibartt.github.io/Connection_Lab_Aibar/FinalProject1
 
 ## Project Concept & Idea
-My idea is to create a Planet Explorer Website, where users can explore different planets in our Solar System. Web application will utilize an incorporated static data set, and user interaction will be done by selecting planet name from dropdown menu to make a data request about different planets. The user will be able to select the name of the Planet and get its description, image and some additional characteristics of the planet. I created my own API because I was not able to find a suitable API with the data set required for my Project on the internet. I used selection element to create event-driven user interactions that are handled in an app.js file. Also I implemented p5 animation for planet movements  embedded on my web page.
+My idea was to create a Planet Explorer Website, where users can explore different planets in our Solar System. Web application will utilize an incorporated static data set, and user interaction will be done by selecting planet name from dropdown menu to make a data request about different planets. The user will be able to select the name of the Planet and get its description, image and some additional characteristics of the planet. I created my own API because I was not able to find a suitable API with the data set required for my Project on the internet. I used selection element to create event-driven user interactions that are handled in an app.js file. Also I implemented p5 animation for planet movements  embedded on my web page.
 
 ## Why this project is important?
 Understanding the planets and small bodies that inhabit our solar system help scientists answer questions about its formation, how it reached its current diverse state, how life evolved on Earth and possibly elsewhere in the solar system, and what characteristics of the solar system lead to the origins of life.
@@ -47,7 +47,7 @@ to access the data set in the form of JSON using API I created using "Create You
   
   ![](images/44.png)
   
-I wanted to improve the quality of the experience for an expected user so I implemented p5 animation of planet movements. 
+I wanted to improve the quality of the experience for an expected user so I implemented p5 animation of planet movements. Also I realized that not all people will be able to know valid names of planets in Solar system and to improve usability, accessibility, and sequencing of interactions I changed it to user-friendly styled drop-down menu with planet names.
   
   
 ## Key Challenges and Solutions
@@ -55,7 +55,7 @@ I had zero previous experience with web-development, and terms like JSON and API
 	
 1) I could not find suitable API for my project because publicly available APIs did not have key attributes like Description, Images and some basic characteristics of the planet. Also some of them had too much redundant information which is not relavant for the averege-level user. For example https://api.le-systeme-solaire.net/en/. So I searched for a JSON file from the internet and used https://mocki.io/fake-json-api website to create my own API for this project.
 
-2) In the class we discussed PokeAPI where you can freely access the data of each Pokemon by adding its name to the end of URL. For example, https://pokeapi.co/api/v2/pokemon/ditto. In my case because API did not have this kind of easy access to each planet data, so I had to use if condition to check the planet name and link it to the specific location of this planet on the array.
+2) In the class we discussed PokeAPI where you can freely access the data of each Pokemon by adding its name to the end of URL. For example, https://pokeapi.co/api/v2/pokemon/ditto. In my case because API did not have this kind of easy access to each planet data, so I had to use if condition to check the planet selection and link it to the specific location of this planet on the array.
 
 3) Implementation of p5 animation of planet movements was quite hard and additional functionality of selecting planet by mouse from the animation to display information is impossible because of specific p5 implementation issues and its negative effect on overall quality of the experience for an expected user.
 4) My initial user interaction was Input Text and Button Click user interactions, but after feedback from user testing I realized that not all people will be able to know valid names of planets in Solar system and to improve usability, accessibility, and sequencing of interactions I changed it to user-friendly styled drop-down menu with planet names, where you just select and data will be displayed. As simple as that!
@@ -70,7 +70,7 @@ I had zero previous experience with web-development, and terms like JSON and API
   ![](images/11.png)
 
 ## Potential next steps
-  I would like to improve my implementation of p5 animation of real-time planet movements in Solar system, so that it will be possible to click on the moving planet and directly display relevant information on p5 itself. But for these I need large amounts of real-time data about movements from various sattelite sources and computational power to process this data.
+  I would like to improve my implementation of p5 animation to real-time planet movements in Solar system, so that it will be possible to click on the moving planet and directly display relevant information on p5 itself. But for this I need large amounts of real-time data about movements of planets from various sattelite sources and computational power to process this data.
   
 ## Inspiration for future improvements
   https://solarsystem.nasa.gov/planets/overview/

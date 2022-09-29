@@ -15,7 +15,7 @@ My website can serve as a starting point to explore our unique solar system for 
 ## Wireframe of Website: 
 ![](images/1.png)
 
-## User Interaction
+## User Experience & Design
 	Welcome Page with quote from Christa McAuliffe
 ![](images/2.png)
 

@@ -48,6 +48,7 @@ to access the data set in the form of JSON using API I created using "Create You
   ![](images/44.png)
   
 I wanted to improve the quality of the experience for an expected user so I implemented p5 animation of planet movements. Also I realized that not all people will be able to know valid names of planets in Solar system and to improve usability, accessibility, and sequencing of interactions I changed it to user-friendly styled drop-down menu with planet names.
+
    ![](images/4.png)
   
   

@@ -3,7 +3,7 @@
 
 ## Website link: https://aibartt.github.io/Connection_Lab_Aibar/FinalProject1
 
-## Project Idea
+## Project Concept & Idea
 My idea is to create a Planet Explorer Website, where users can explore different planets in our Solar System. Web application will utilize an incorporated static data set, and user interaction will be done by selecting planet name from dropdown menu to make a data request about different planets. The user will be able to select the name of the Planet and get its description, image and some additional characteristics of the planet. I created my own API because I was not able to find a suitable API with the data set required for my Project on the internet. I used selection element to create event-driven user interactions that are handled in an app.js file. Also I implemented p5 animation for planet movements  embedded on my web page.
 
 ## Why this project is important?

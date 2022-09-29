@@ -71,6 +71,9 @@ I had zero previous experience with web-development, and terms like JSON and API
 
 ## Potential next steps
   I would like to improve my implementation of p5 animation of real-time planet movements in Solar system, so that it will be possible to click on the moving planet and directly display relevant information on p5 itself. But for these I need large amounts of real-time data about movements from various sattelite sources and computational power to process this data.
+  
+## Inspiration for future improvements
+  https://solarsystem.nasa.gov/planets/overview/
  
  ## Relevant references/resources 
  Connections Lab Course Materials

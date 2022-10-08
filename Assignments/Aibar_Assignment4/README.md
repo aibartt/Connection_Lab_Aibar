@@ -11,7 +11,7 @@ And created an object app that
 
   ![](images/1.png)
   
-4) In addition I served JSON and made my own API  that can be used by others as well. I implemented multiple routes using req.params.
+4) In addition I served JSON and made my own API  that can be used by others as well. I implemented multiple routes using req.params and query.
 4) For Assignment 4 specifically I served a public static folder using code snippet - app.use('/', express.static('public')); and tied this together using the API to access it in my code using fetch. I know understand that we have 2 consoles: 1) front end console in the browser, and the servers in the terminal.
 
   ![](images/2.png)

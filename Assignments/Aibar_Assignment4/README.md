@@ -4,8 +4,7 @@
 
 ## What I learned from this Assignment?
 
-1) With the help of this project, I learned a lot about Node.js and creating your own servers. In practice, I used  let express = require(‘express’); code snipped  to bring express into the program. 
-And created an object app that 
+1) With the help of this project, I learned a lot about Node.js and creating your own servers. In practice, I used  let express = require(‘express’); code snipped  to bring express into the program.  
 2) I created the routes for the server using let app = express();. I also learned how to manage server when a client is trying to GET information from the ‘/’ route.
 3) I made server listen to the browser on port 3000 and respond according to client request. Learnt how to control responses, interpret requests and determine what exactly gets sent back to the server.
 

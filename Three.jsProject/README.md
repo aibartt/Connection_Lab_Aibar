@@ -43,6 +43,6 @@ The general formula:
 	widthSegments — number of horizontal segments. Minimum value is 3, and the default is 32.
 	heightSegments — number of vertical segments. Minimum value is 2, and the default is 16.
 
-Hence by increasing the widthSegments and heightSegments variables I got the smoother sphere geometry instead of polygonic sphere.
+Hence by increasing the widthSegments and heightSegments variables to value 50, I got the smoother sphere geometry instead of polygonic sphere.
 
    ![](images/4.png)

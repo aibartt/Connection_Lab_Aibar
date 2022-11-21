@@ -36,8 +36,9 @@ I learned that we need to setup 3 crucial parts: 1)a scene 2)a camera 3)a render
 	renderer.setSize(window.innerWidth, window.innerHeight);
 	
 After that I fixed our mistake in SphereGeometry function in prev lesson. I found out that the geometry is created by sweeping and calculating vertexes around the Y axis (horizontal sweep) and the Z axis (vertical sweep). 
+
 The general formula:
-	SphereGeometry(radius : Float, widthSegments : Integer, heightSegments : Integer, phiStart : Float, phiLength : Float, thetaStart : Float, thetaLength : Float)
+	#SphereGeometry(radius : Float, widthSegments : Integer, heightSegments : Integer, phiStart : Float, phiLength : Float, thetaStart : Float, thetaLength : Float)
 	radius — sphere radius. Default is 1.
 	widthSegments — number of horizontal segments. Minimum value is 3, and the default is 32.
 	heightSegments — number of vertical segments. Minimum value is 2, and the default is 16.

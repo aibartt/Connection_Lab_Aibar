@@ -46,3 +46,13 @@ The general formula:
 Hence by increasing the widthSegments and heightSegments variables to value 50, I got the smoother sphere geometry instead of polygonic sphere.
 
    ![](images/4.png)
+   
+
+Planet toggle button will display randomly selected planet in solar system. I generated a random integer between 1 and 8 to display random planet in solar system using:
+	//generating a random intehger between 1 and 8 to display random planet in solar system
+        const rndInt = Math.floor(Math.random() * 8) + 1
+	
+	
+    ![](images/5.png)
+
+
